@@ -9,6 +9,6 @@ This website required the use of dayjs, as well as the use of a third party api 
 
 A link to the github repository: [https://github.com/cddoigkn/weather_dashboard](https://github.com/cddoigkn/weather_dashboard)
 
-A link to the calendar website: [https://cddoigkn.github.io/weather_dashboard](https://cddoigkn.github.io/weather_dashboard)
+A link to the weather website: [https://cddoigkn.github.io/weather_dashboard](https://cddoigkn.github.io/weather_dashboard)
 
 ![This is a screenshot of the website!](./assets/images/weatherdashboard.png)
