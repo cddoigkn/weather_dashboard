@@ -9,18 +9,23 @@
 </head>
 
 <body>
-  <div class="flex-row align-start justify-left pt-4 pl-2 min-100-vh bg-primary">
+  <div class="flex-row align-start justify-left pt-4 pl-2 min-70-vh bg-primary">
     <div class="col-md-4 flex-column align-left bg-light p-5">
       <h1 class="text-primary">Weather Dashboard</h1>
       <form id="search-form" class="form w-100">
         <input id="search-input" class="form-input w-100" type="text" placeholder="Search!">
         <button id="searchButton" class="btn btn-info btn-block">Click Me</button>
-      </form>
+      </form>  
     </div>
+    <div class="col-md-4 flex-column align-left ml-3" id="currentWeather"> </div>
   </div>
+  <div class="flex-row align-start justify-left pt-4 pl-2 min-100-vh bg-primary" id="lookingForward"></div>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js" integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U=" crossorigin="anonymous">
   </script>
+  <!-- Advanced Format Plugin for day.js-->
+  <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/plugin/advancedFormat.js"></script>
+  <script>dayjs.extend(window.dayjs_plugin_advancedFormat)</script>
   <script src="./js/script.js"></script>
 </body>
 
